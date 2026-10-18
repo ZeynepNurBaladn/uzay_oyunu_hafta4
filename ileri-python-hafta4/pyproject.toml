@@ -1,0 +1,13 @@
+[project]
+name = "uzay-oyunu"
+version = "0.1.0"
+description = "İleri Python Programlama - Hafta 3 ve Hafta 4 lab ödevi"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
