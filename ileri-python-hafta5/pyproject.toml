@@ -1,0 +1,12 @@
+[project]
+name = "uzay-oyunu"
+version = "0.5.0"
+description = "İleri Python Programlama - uzay projesi (Hafta 4-5)"
+requires-python = ">=3.10"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
